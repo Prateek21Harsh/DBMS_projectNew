@@ -1,16 +1,21 @@
 # dbms2
 
-A new Flutter project.
+DBMS Project (Flutter UI linked with mysql database)
 
-## Getting Started
+## Softwares used in project 
 
-This project is a starting point for a Flutter application.
+1. Android Studio (Flutter)
+2. Xampp (It is an open source web server which helps in linking php script with sql database.)
 
-A few resources to get you started if this is your first Flutter project:
+## How to run the project on your Android phone
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Step 1
+Clone the project in your Android Studio software using Github code link or the zip file.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Step 2 (OPTIONAL - If you want to use your own database then follow Step 2)
+Setup Xampp in your PC. Create a database and table in mysql Xampp. 
+Copy all the PHP files (conn, adddata, getdata, deletedata, editdata) in a folder in xampp->htdocs and name the folder as “newWork”. Change the database name with your database’s name in the “conn” PHP file. 
+Connect your laptop with Student WiFi.
+
+Step 3
+Connect you phone with Studen Wifi. Install the app from Android Studio in your android phone via usb/type C table. 
